@@ -1,0 +1,1 @@
+{"rule":"SOME_OF_THE","sentence":"^\\Q\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q: uses as input some of the files produced by \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q, in particular shift_detail_noreset* and values_remaining* (converted in CSV format).\\E$"}
