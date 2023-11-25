@@ -1,8 +1,10 @@
-# Continuous Management of ML-Based Application Non-Functional Behavior - A Multi-Model Approach
+# Managing ML-Based Application Non-Functional Behavior: A Multi-Model Approach
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
 [Marco Anisetti](https://homes.di.unimi.it/anisetti), [Claudio A. Ardagna](https://homes.di.unimi.it/ardagna), [Nicola Bena](https://homes.di.unimi.it/bena), [Ernesto Damiani](https://sesar.di.unimi.it/staff/ernesto-damiani/), [Paolo G. Panero](https://www.linkedin.com/in/paolopanero/)
+
+Preprint: [arXiv](https://arxiv.org/abs/2311.12686)
 
 > Modern applications are increasingly driven by Machine Learning (ML) models and their non-deterministic behavior is affecting the entire application life cycle from design to operation. The pervasive adoption of ML is urgently calling for approaches that guarantee a stable non-functional behavior of ML-based applications over time and across model changes. To this aim, non-functional properties of ML models, such as privacy, confidentiality, fairness, and explainability, must be monitored, verified, and maintained. This need is even more pressing when modern applications operate in the cloud-edge continuum, increasing their complexity and dynamicity. Existing approaches mostly focus on *i)* implementing classifier selection solutions according to the functional behavior of ML models, *ii)* finding new algorithmic solutions to this need, such as continuous re-training. In this paper, we propose a multi-model approach built on dynamic classifier selection, where multiple ML models showing similar non-functional properties are available to the application and one model is selected at time according to (dynamic and unpredictable) contextual changes. Our solution goes beyond the state of the art by providing an architectural and methodological approach that continuously guarantees a stable non-functional behavior of ML-based applications, is applicable to any ML models, and is driven by non-functional properties assessed on the models themselves. It consists of a two-step process working during application operation, where *model assessment* verifies non-functional properties of ML models trained and selected at development time, and *model substitution* guarantees a continuous and stable support of non-functional properties. We experimentally evaluate our solution in a real-world scenario focusing on non-functional property fairness.
 
@@ -95,6 +97,15 @@ Experiments on [`MAB.py`](MAB.py) can take hours, while postprocessing scripts u
 It is mandatory to cite our publication, according to our license.
 
 The paper can be cited as follows:
+
+```bibtex
+@article{anisetti2023managing,
+      title={Managing ML-Based Application Non-Functional Behavior: A Multi-Model Approach}, 
+      author={Marco Anisetti and Claudio A. Ardagna and Nicola Bena and Ernesto Damiani and Paolo G. Panero},
+      year={2023},
+      journal={arXiv preprint arXiv:2311.12686}
+}
+```
 
 ## 5. <a name='Acknowledgements'></a>Acknowledgements
 
