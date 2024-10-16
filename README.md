@@ -1,4 +1,4 @@
-# Managing ML-Based Application Non-Functional Behavior: A Multi-Model Approach
+# Continuous Management of Machine Learning-Based Application Behavior
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
@@ -99,20 +99,22 @@ It is mandatory to cite our publication, according to our license.
 The paper can be cited as follows:
 
 ```bibtex
-@article{anisetti2023managing,
-      title={Managing ML-Based Application Non-Functional Behavior: A Multi-Model Approach}, 
-      author={Marco Anisetti and Claudio A. Ardagna and Nicola Bena and Ernesto Damiani and Paolo G. Panero},
-      year={2023},
-      journal={arXiv preprint arXiv:2311.12686}
+@article{AABDP.TSC2024,
+      title={Continuous Management of Machine Learning-Based Application Behavior}, 
+      author={Anisetti, Marco and Ardagna, Claudio A and Bena, Nicola and Damiani, Ernesto and Panero, P. G.},
+      year={2024},
+      journal={IEEE Transactions on Services Computing}
 }
 ```
 
 ## 5. <a name='Acknowledgements'></a>Acknowledgements
 
-The work was partially supported by the projects:
+The work was partially supported by:
 
+* project BA-PHERD, funded by the European Union – NextGenerationEU, under the National Recovery and Resilience Plan (NRRP) Mission 4 Component 2 Investment Line 1.1: "Fondo Bando PRIN 2022" (CUP G53D23002910006)
 * MUSA - Multilayered Urban Sustainability Action - project, funded by the European Union - NextGenerationEU, under the National Recovery and Resilience Plan (NRRP) Mission 4 Component 2 Investment Line 1.5: Strengthening of research structures and creation of R&D "innovation ecosystems", set up of "territorial leaders in R&D" (CUP G43C22001370007, Code ECS00000037)
-* SERICS (PE00000014) under the NRRP MUR program funded by the EU - NextGenerationEU.
+* 1H-HUB and SOV-EDGE-HUB funded by Università degli Studi di Milano – PSR 2021/2022 – GSA – Linea 6
+* program "Piano di Sostegno alla Ricerca" funded by Università degli Studi di Milano
 
 ## 6. <a name='License'></a>License
 
